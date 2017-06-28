@@ -3,5 +3,5 @@ class UserMailer < ApplicationMailer
     @user = user
     subject = "notify_create_store_subject"
     mail(to: 'tiensaruby@gmail.com', subject: subject)
-   end
+  end
 end
